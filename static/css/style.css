@@ -7,27 +7,18 @@ div img {
 	margin:auto;
 }
 
-/*small*/
+/* extra small*/
 
 @media (max-width: 767px) {
 	.xs-text-centered
 	{
 		text-align:center;
 	}
-	.sm-dl-compact dt
-	{
-		width:50px;
-
-	}
-
-	.sm-dl-compact dd
-	{
-		margin-left:70px;
-	}
+	
 
 }
 
-/*extra small */
+/*small */
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.sm-dl-compact dt
