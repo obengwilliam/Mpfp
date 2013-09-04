@@ -7,24 +7,71 @@ div img {
 	margin:auto;
 }
 
+/*small*/
 
 @media (max-width: 767px) {
 	.xs-text-centered
 	{
 		text-align:center;
 	}
+	.sm-dl-compact dt
+	{
+		width:50px;
+
+	}
+
+	.sm-dl-compact dd
+	{
+		margin-left:70px;
+	}
 
 }
 
+/*extra small */
+
 @media (min-width: 768px) and (max-width: 991px) {
+	.sm-dl-compact dt
+	{
+		width:50px;
+
+	}
+
+	.sm-dl-compact dd
+	{
+		margin-left:70px;
+	}
  
 }
 
+
+/* medium */
 @media (min-width: 992px) and (max-width: 1199px) {
+	.sm-dl-compact dt
+	{
+		width:50px;
+
+	}
+
+	.sm-dl-compact dd
+	{
+		margin-left:70px;
+	}
   
 }
 
+
+/* large */
 @media (min-width: 1200px) {
+	.sm-dl-compact dt
+	{
+		width:50px;
+
+	}
+
+	.sm-dl-compact dd
+	{
+		margin-left:70px;
+	}
  
 }
 
