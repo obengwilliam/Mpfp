@@ -14,7 +14,16 @@ div img {
 	{
 		text-align:center;
 	}
-	
+	.sm-dl-compact dt
+	{
+		width:50px;
+
+	}
+
+	.sm-dl-compact dd
+	{
+		margin-left:70px;
+	}
 
 }
 
