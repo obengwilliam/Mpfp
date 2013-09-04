@@ -1,0 +1,30 @@
+div img {
+	width:100px;
+	height:100px;
+}
+
+.center{
+	margin:auto;
+}
+
+
+@media (max-width: 767px) {
+	.xs-text-centered
+	{
+		text-align:center;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
