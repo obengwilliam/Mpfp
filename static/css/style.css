@@ -29,18 +29,20 @@ h1{
 #startpage .imgdiv{
 	
 	overflow:hidden;
-	width:1260px;
-	height:600px;
-	margin-left:50px;
+	
+	height:100%;
 
-	margin-right: 0px;
 	margin-top:20px;
+	border-radius:5px;
+	margin-bottom:20px;
 	
 
 }
 img{
 	border-radius:5px;
+	padding:0px;
 }
+
 
 
 
@@ -98,16 +100,7 @@ img{
 /* extra small*/
 
 @media (max-width: 767px) {
-	.xs-text-centered
-	{
-		text-align:center;
-	}
-
-	.sm-text-centered
-	{
-		text-align:center;
-
-	}
+	
 	
 
 }
@@ -115,53 +108,20 @@ img{
 /*small */
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.sm-dl-compact dt
-	{
-		width:50px;
 
-	}
-
-	.sm-dl-compact dd
-	{
-		margin-left:70px;
-	}
-	
-	.sm-text-centered
-	{
-		text-align:center;
-
-	}
  
 }
 
 
 /* medium */
 @media (min-width: 992px) and (max-width: 1199px) {
-	.sm-dl-compact dt
-	{
-		width:50px;
 
-	}
-
-	.sm-dl-compact dd
-	{
-		margin-left:70px;
-	}
   
 }
 
 
 /* large */
 @media (min-width: 1200px) {
-	.sm-dl-compact dt
-	{
-		width:50px;
-
-	}
-
-	.sm-dl-compact dd
-	{
-		margin-left:70px;
-	}
+	
  
 }
