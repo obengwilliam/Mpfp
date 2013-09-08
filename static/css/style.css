@@ -56,8 +56,6 @@ img{
 {   
 	background-color:#171717;
 	
-	width:350px;
-	
 	top:300px;
 	position:absolute;
 	opacity:0.8;
@@ -100,6 +98,11 @@ img{
 /* extra small*/
 
 @media (max-width: 767px) {
+	.xs-welcome-container
+	{
+
+		position:absolute; background-color:#171717 ;z-index:100; top:200px; opacity:0.5; text-align:center;
+	}
 	
 	
 
