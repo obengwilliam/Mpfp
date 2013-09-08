@@ -20,7 +20,6 @@ html, body ,#startpage
 }
 h1{
 	text-align:center;
-	font-size:40px;
 	font-weight:bolder;
 	-webkit-font-smoothing: antialiased;
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -54,7 +53,7 @@ img{
 .welcome
 {   
 	background-color:#171717;
-	height:125px;
+	
 	width:350px;
 	
 	top:300px;
@@ -92,4 +91,77 @@ img{
 	font-weight:bolder;
 	margin-top:2px;
 	color:white;
+}
+
+
+
+/* extra small*/
+
+@media (max-width: 767px) {
+	.xs-text-centered
+	{
+		text-align:center;
+	}
+
+	.sm-text-centered
+	{
+		text-align:center;
+
+	}
+	
+
+}
+
+/*small */
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.sm-dl-compact dt
+	{
+		width:50px;
+
+	}
+
+	.sm-dl-compact dd
+	{
+		margin-left:70px;
+	}
+	
+	.sm-text-centered
+	{
+		text-align:center;
+
+	}
+ 
+}
+
+
+/* medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.sm-dl-compact dt
+	{
+		width:50px;
+
+	}
+
+	.sm-dl-compact dd
+	{
+		margin-left:70px;
+	}
+  
+}
+
+
+/* large */
+@media (min-width: 1200px) {
+	.sm-dl-compact dt
+	{
+		width:50px;
+
+	}
+
+	.sm-dl-compact dd
+	{
+		margin-left:70px;
+	}
+ 
 }
