@@ -30,6 +30,12 @@ h1{
 .nav > li >a
 {
 	padding:0px 0px;
+	color:#2f3237;
+}
+
+.nav > li >a > span
+{
+	font-size:10px;
 }
 
 #startpage .imgdiv{
