@@ -1,6 +1,9 @@
 body
 {
 	line-height:1.2em;
+	-webkit-font-smoothing: antialiased;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+
 	
      
 }
@@ -21,10 +24,12 @@ html, body ,#startpage
 h1{
 	text-align:center;
 	font-weight:bolder;
-	-webkit-font-smoothing: antialiased;
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	
+	
 	
 }
+
+
 
 
 .nav > li >a
@@ -113,17 +118,56 @@ img{
 
 
 /***********************************8
+about page
+****************************8*******/
+.socialnetwork
+{
+	float:right;
+	padding-left:3px;
+}
+
+.socialnetwork 
+{
+ padding:15px;
+
+}
+.socialnetwork a
+{
+  color:white;
+
+}
+
+.socialnetwork span
+{
+  color:white;
+
+
+}
+
+#aboutpage .face
+{
+
+padding:10px;
+}
+
+
+
+/***********************************8
 contact page
 ****************************8*******/
 .jumbotron
 {
-	background-color:#e57e71;
+	background-color:#2f3237;
 	margin-left:16px;
 	margin-right:16px;
 	
 	margin-top:5px;
-	height:600px;
+	opacity:0.5;
+
 	
+}
+a{
+	color:#ff755a;
 }
 
 .contact
@@ -134,15 +178,14 @@ contact page
 
 hr{
 
-border-color: #151515;
-border-width: 1px 0 0;
+border-width: 2px 0 0;
 margin-top: 50px;
 width: 100%;
 
 
 
 border: 0;
-border-top: 1px solid #eeeeee;
+border-top: 1px dotted #ff755a;
 
 }
 
@@ -161,6 +204,76 @@ h4{
 	font-size:10px;
 }
 
+form
+{
+	
+}
+
+
+/*project page */
+#pbg
+{
+	background-image:url('../img/bg.jpg');
+	margin:15px;
+	border-radius:5px;
+
+}
+
+#pbg .container h1
+{
+	
+	margin-left:-35px;
+	margin-top:30px;
+	font-size:67px;
+}
+
+#pbg .container hr
+{
+
+border-width: 1px 0 0;
+margin-top: 70px;
+width: 100%;
+margin-left:-100px;
+
+}
+#pbg p{
+	margin-left:-50px;
+
+}
+
+#pbg h3{
+
+color:#ff755a;
+font-size:30px;
+line-height:1.2em;
+	-webkit-font-smoothing: antialiased;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	
+     
+
+}
+
+
+.projectpage
+{
+
+	top:200px;
+}
+
+/* */
+
+
+.aboutpage
+{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+
+.aboutpage img{
+	width:255px;
+	height:319px;
+}
 
 /*extra extra small*/
 	
@@ -172,6 +285,17 @@ h4{
 	{
 
 		position:absolute; background-color:#171717 ;z-index:100; top:50px; opacity:0.5; text-align:center;
+	
+	}
+	.xs-center
+	{
+		margin:auto;
+	}
+	
+	.lg-margin-contact
+	{
+
+		margin-bottom:50px;
 	
 	}
 	
@@ -189,13 +313,22 @@ h4{
 
 /* medium */
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  .lg-h1-px
+	{
+		font-size:67px;
+	}
   
 }
 
 
 /* large */
 @media (min-width: 1200px) {
+
+
+	.lg-h1-px
+	{
+		font-size:67px;
+	}
 	
  
 }
