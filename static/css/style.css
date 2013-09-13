@@ -10,7 +10,12 @@ body
 
 
 .navbar.navbar-inverse.navbar-fixed-top {
-background-color: #ff755a;
+background-color: #171717;
+border-bottom-left-radius:5px;
+border-bottom-right-radius: 5px;
+border:1px #ff755a;
+margin-left:10px;
+margin-right:10px;
 opacity:0.8;
 }
 .navbar-nav li
@@ -19,14 +24,21 @@ opacity:0.8;
 	
 
 }
+.navbar-nav 
+{
+	float:left;
+	
+
+}
 
 .navbar-inverse .navbar-nav>li>a {
-color: #171717;
+color: white;
+
 }
 
 html, body ,#startpage
 {
-	
+
 	margin:0px;
 	padding:0px;
 	background-color:#171717;
@@ -93,7 +105,7 @@ img{
 	
 	top:300px;
 	position:absolute;
-	opacity:0.8;
+	
 	z-index:100;
 	
 	text-align:center;
@@ -114,7 +126,10 @@ img{
 	text-align:center;
 	color:white;
 }
-
+.welcome2 p{
+	font-size: 20px;
+	line-height: 2em;
+}
 .sidebar
 {
 	background-color:#e57e71;
@@ -174,7 +189,10 @@ margin-top: 40px;
 
 padding:10px;
 }
-
+.list-unstyled span
+{
+	color:#ff755a;
+}
 
 
 /***********************************8
@@ -315,7 +333,7 @@ line-height:1.2em;
 	.xs-welcome-container
 	{
 
-		position:absolute; background-color:#171717 ;z-index:100; top:50px; opacity:0.5; text-align:center;
+		position:absolute; background-color:#171717 ;z-index:100; top:50px;  text-align:center;
 	
 	}
 	.xs-center
