@@ -314,6 +314,11 @@ line-height:1.2em;
 		margin-bottom:50px;
 	
 	}
+
+	.xs-font
+	{
+		font-size:15px;
+	}
 	
 	
 
@@ -326,7 +331,10 @@ line-height:1.2em;
 	{
 		margin:auto;
 	}
-
+.xs-font
+	{
+		font-size:15px;
+	}
  
 }
 
@@ -337,6 +345,7 @@ line-height:1.2em;
 	{
 		font-size:67px;
 	}
+	
   
 }
 
