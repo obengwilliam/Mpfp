@@ -143,6 +143,16 @@ about page
 
 
 }
+.aboutcontent
+{
+	margin-left:20px;
+}
+
+
+.list-inline {
+margin-left: -10px;
+margin-top: 40px;
+}
 
 #aboutpage .face
 {
@@ -181,6 +191,7 @@ hr{
 border-width: 2px 0 0;
 margin-top: 50px;
 width: 100%;
+margin-left:10px;
 
 
 
@@ -222,7 +233,7 @@ form
 #pbg .container h1
 {
 	
-	margin-left:-35px;
+	margin-left:-15px;
 	margin-top:30px;
 	font-size:67px;
 }
@@ -237,7 +248,8 @@ margin-left:-100px;
 
 }
 #pbg p{
-	margin-left:-50px;
+	margin-left:-20px;
+	padding-left:-20px;
 
 }
 
@@ -275,6 +287,11 @@ line-height:1.2em;
 	height:319px;
 }
 
+.aboutcontent
+{
+  color:white;
+}
+
 /*extra extra small*/
 	
 
@@ -306,6 +323,10 @@ line-height:1.2em;
 /*small */
 
 @media (min-width: 768px) and (max-width: 991px) {
+		.xs-center
+	{
+		margin:auto;
+	}
 
  
 }
